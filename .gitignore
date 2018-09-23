@@ -1,2 +1,6 @@
 # VS Code
 .vscode/*
+
+# C#
+**/bin/*
+**/obj/*
