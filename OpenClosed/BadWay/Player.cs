@@ -7,6 +7,12 @@ namespace OpenClosed.BadWay
     /// </summary>
     public class Player
     {
+        /// <summary>
+        /// Attack with weapon and returns damage dealt.
+        /// </summary>
+        /// <param name="weapon"></param>
+        /// <param name="playerClass"></param>
+        /// <returns></returns>
         public double Attack(Weapon weapon, PlayerClass playerClass)
         {
             switch (weapon)

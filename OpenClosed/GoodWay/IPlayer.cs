@@ -1,7 +1,7 @@
 ﻿namespace OpenClosed.Goodway
 {
     /// <summary>
-    /// Additional classes can be added by implementing this interface, therefore adhering to open/closed principle as this interface
+    /// Additional player classes can be added by implementing this interface, therefore adhering to open/closed principle as this interface
     /// would not be modified but the behaviour can be extended in the derived class (Hunter/Mage/Warrior etc).
     /// </summary>
     public interface IPlayer
