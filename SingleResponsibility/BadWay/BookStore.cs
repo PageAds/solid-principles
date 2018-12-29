@@ -1,4 +1,3 @@
-using System;
 using System.IO;
 
 namespace SingleReponsibility.BadWay
@@ -24,8 +23,8 @@ namespace SingleReponsibility.BadWay
             }
             catch (System.Exception ex)
             {
-                // A class should only ever have "one reason to change"
-                // If our file logging implementation below were to change, then this class would have to change
+                // A class should only ever have "one reason to change".
+                // If our file logging implementation below were to change, then this class would have to change.
                 File.WriteAllText(@"C:\Temp\logger.txt", ex.Message);
             }
         }
