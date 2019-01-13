@@ -2,15 +2,13 @@
 {
     public class StandardRefuelingSystem : IRefuelingSystem
     {
-        private double remainingFuel;
-
-        public double RemianingFuel => RemianingFuel;
+        public double RemainingFuel { get; set; }
 
         public void Refuel(double litres)
         {
             //Filling up
 
-            remainingFuel += litres;
+            RemainingFuel += litres;
         }
     }
 }

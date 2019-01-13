@@ -2,7 +2,7 @@
 {
     public interface IRefuelingSystem
     {
-        double RemianingFuel { get; }
+        double RemainingFuel { get; set; }
 
         void Refuel(double litres);
     }
